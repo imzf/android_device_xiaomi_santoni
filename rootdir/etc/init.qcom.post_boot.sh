@@ -300,7 +300,7 @@ else
     fi
 
     SWAP_ENABLE_THRESHOLD=1048576
-    swap_enable=`getprop ro.vendor.qti.config.swap`
+    swap_enable=`getprop ro.config.swap`
 
     if [ -f /sys/devices/soc0/soc_id ]; then
         soc_id=`cat /sys/devices/soc0/soc_id`
