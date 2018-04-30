@@ -217,3 +217,8 @@ ro.config.zram=true
 
 # Create Swap disk, if below sys-prop enabled & also if device has lower (< 1 GB) RAM
 ro.config.swap=true
+# mipush
+ro.miui.ui.version.name=V9
+ro.miui.ui.version.code=7
+ro.miui.version.code_time=1505408400
+ro.miui.internal.storage=/sdcard/
