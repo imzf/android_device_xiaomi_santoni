@@ -26,6 +26,10 @@ $(call inherit-product, build/target/product/go_defaults.mk)
 $(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackageGo.mk)
 PRODUCT_PROPERTY_OVERRIDES += dalvik.vm.foreground-heap-growth-multiplier=2.0
 
+# On P, classes*.dex of privileged apps are left uncompressed by default
+# For Go targets, compress them to save disk space.
+DONT_UNCOMPRESS_PRIV_APPS_DEXS := true
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
