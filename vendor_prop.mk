@@ -231,3 +231,13 @@ persist.sys.usb.config.extra=none
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
+
+# mipush
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.miui.ui.version.name=V9 \
+ro.miui.ui.version.code=7 \
+ro.miui.version.code_time=1527550858 \
+ro.miui.internal.storage=/sdcard/ \
+ro.product.manufacturer=Xiaomi \
+ro.product.brand=Xiaomi \
+ro.product.name=Xiaomi
