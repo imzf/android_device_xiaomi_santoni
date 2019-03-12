@@ -232,6 +232,10 @@ persist.sys.usb.config.extra=none
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
 
+#Havoc Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.havoc.maintainer=imzf
+
 # mipush
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.miui.ui.version.name=V9 \
