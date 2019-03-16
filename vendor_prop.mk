@@ -134,6 +134,7 @@ media.aac_51_output_enabled=true \
 media.stagefright.audio.sink=280 \
 vendor.mm.enable.qcom_parser=17825791 \
 vendor.vidc.disable.split.mode=1 \
+vendor.mediacodec.binder.size=4 \
 vendor.vidc.enc.disable.pq=true \
 video.disable.ubwc=1
 
